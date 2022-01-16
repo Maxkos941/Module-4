@@ -1,0 +1,6 @@
+type SumReward @entity{
+  id: ID! # AccountId
+  accountReward: BigInt!
+  blockheight: Int!
+  createdAt: Date!
+}
